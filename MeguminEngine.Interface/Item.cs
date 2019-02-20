@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MeguminEngine.Interface
+﻿namespace MeguminEngine.Interface
 {
     /// <summary>
     /// 物品主键
