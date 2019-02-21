@@ -2,29 +2,50 @@
 
   <!--主配置-->
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Authors>云却</Authors>
-    <NoWarn>1701;1702;1591</NoWarn>
+    
+    <!--版本配置-->
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0.0</Version>
     
     <!--包配置-->
     <Product>Megumin.GameFramework</Product>
     <PackageId>MeguminEngine.Interface</PackageId>
     <AssemblyName>MeguminEngine.Interface</AssemblyName>
+    <RootNamespace>MeguminEngine.Interface</RootNamespace>
     <PackageTags>notnetstandard,unity</PackageTags>
     <Description>游戏类库的公共抽象接口，根据此接口实现各个业务逻辑类库。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     
-    <!--版本配置-->
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0.0</Version>
-    
     <!--许可证配置-->
     <Copyright>Copyright (c) 2019 云却</Copyright>
     <PackageLicenseUrl>https://github.com/KumoKyaku/Megumin.GameFramework/blob/master/LICENSE</PackageLicenseUrl>
+
+  </PropertyGroup> 
+  
+  <!--目标框架配置-->
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  
+  <!--依赖配置-->
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6'">
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+  </ItemGroup>
+  
+  
+  <!--以下是项目通用配置-->
+  
+  <!--基本配置-->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1701;1702;1591</NoWarn>
     
     <!--打包配置-->
     <SignAssembly>true</SignAssembly>
@@ -33,21 +54,10 @@
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     
     <!--xml注释生成-->
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\MeguminEngine.Interface.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup> 
   
-  <!--目标框架配置-->
-  <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;netstandard2.0</TargetFrameworks>
-  </PropertyGroup>
   
-  <!--依赖配置-->
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.1'">
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
-  </ItemGroup>
-    
   <!--调试符号配置-->
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG</DefineConstants>
