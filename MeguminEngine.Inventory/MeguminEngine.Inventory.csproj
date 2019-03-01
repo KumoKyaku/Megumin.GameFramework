@@ -5,21 +5,21 @@
     <Authors>云却</Authors>
     
     <!--版本配置-->
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0</Version>
     
     <!--包配置-->
     <Product>Megumin.GameFramework</Product>
-    <PackageId>MeguminEngine.Interface</PackageId>
-    <AssemblyName>MeguminEngine.Interface</AssemblyName>
-    <RootNamespace>MeguminEngine.Interface</RootNamespace>
+    <PackageId>MeguminEngine.Inventory</PackageId>
+    <AssemblyName>MeguminEngine.Inventory</AssemblyName>
+    <RootNamespace>MeguminEngine.Inventory</RootNamespace>
     <PackageTags>notnetstandard,unity</PackageTags>
-    <Description>游戏类库的公共抽象接口，根据此接口实现各个业务逻辑类库。</Description>
+    <Description>游戏类库的仓库背包功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-
+    
   </PropertyGroup> 
   
   <!--目标框架配置-->
@@ -28,10 +28,8 @@
   </PropertyGroup>
   
   <!--依赖配置-->
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6'">
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+  <ItemGroup>
+    <ProjectReference Include="..\MeguminEngine.Interface\MeguminEngine.Interface.csproj" />
   </ItemGroup>
   
   <!--以下是项目通用配置-->
@@ -50,7 +48,7 @@
     
     <!--xml注释生成-->
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-
+    
     <!--版权配置-->
     <Copyright>Copyright (c) 2019 云却</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>

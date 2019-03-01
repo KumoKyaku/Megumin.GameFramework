@@ -12,6 +12,4 @@
     {
         long ItemInstanceID { get; set; }
     }
-
-
 }
