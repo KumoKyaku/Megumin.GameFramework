@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Interface</PackageId>
     <AssemblyName>MeguminEngine.Interface</AssemblyName>
     <RootNamespace>MeguminEngine.Interface</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的公共抽象接口，根据此接口实现各个业务逻辑类库。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Quest</PackageId>
     <AssemblyName>MeguminEngine.Quest</AssemblyName>
     <RootNamespace>MeguminEngine.Quest</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的任务功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Inventory</PackageId>
     <AssemblyName>MeguminEngine.Inventory</AssemblyName>
     <RootNamespace>MeguminEngine.Inventory</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的仓库背包功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

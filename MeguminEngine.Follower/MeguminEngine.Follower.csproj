@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Follower</PackageId>
     <AssemblyName>MeguminEngine.Follower</AssemblyName>
     <RootNamespace>MeguminEngine.Follower</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的宠物/随从功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

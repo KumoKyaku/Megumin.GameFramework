@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Matching</PackageId>
     <AssemblyName>MeguminEngine.Matching</AssemblyName>
     <RootNamespace>MeguminEngine.Matching</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的匹配功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

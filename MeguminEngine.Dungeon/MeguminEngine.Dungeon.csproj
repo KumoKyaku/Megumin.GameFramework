@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Dungeon</PackageId>
     <AssemblyName>MeguminEngine.Dungeon</AssemblyName>
     <RootNamespace>MeguminEngine.Dungeon</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的副本功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

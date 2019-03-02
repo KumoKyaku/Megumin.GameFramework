@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.AuctionHouse</PackageId>
     <AssemblyName>MeguminEngine.AuctionHouse</AssemblyName>
     <RootNamespace>MeguminEngine.AuctionHouse</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的拍卖行功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Team</PackageId>
     <AssemblyName>MeguminEngine.Team</AssemblyName>
     <RootNamespace>MeguminEngine.Team</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的组队功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

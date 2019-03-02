@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Friends</PackageId>
     <AssemblyName>MeguminEngine.Friends</AssemblyName>
     <RootNamespace>MeguminEngine.Friends</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的好友功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

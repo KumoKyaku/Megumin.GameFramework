@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Duel</PackageId>
     <AssemblyName>MeguminEngine.Duel</AssemblyName>
     <RootNamespace>MeguminEngine.Duel</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的决斗/插旗功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>

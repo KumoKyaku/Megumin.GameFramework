@@ -14,7 +14,7 @@
     <PackageId>MeguminEngine.Shop</PackageId>
     <AssemblyName>MeguminEngine.Shop</AssemblyName>
     <RootNamespace>MeguminEngine.Shop</RootNamespace>
-    <PackageTags>notnetstandard,unity</PackageTags>
+    <PackageTags>dotnetstandard,unity</PackageTags>
     <Description>游戏类库的商店功能。</Description>
     <PackageProjectUrl>https://github.com/KumoKyaku/Megumin.GameFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KumoKyaku/Megumin.GameFramework</RepositoryUrl>
