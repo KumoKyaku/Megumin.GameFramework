@@ -11,25 +11,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Inventory", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Shop", "MeguminEngine.Shop\MeguminEngine.Shop.csproj", "{101F7065-88B0-47E8-9E67-BC3258154736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Matching", "MeguminEngine.Matching\MeguminEngine.Matching.csproj", "{3EF439C5-2C7A-47BF-BD30-3077EACA7BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Matching", "MeguminEngine.Matching\MeguminEngine.Matching.csproj", "{3EF439C5-2C7A-47BF-BD30-3077EACA7BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Friends", "MeguminEngine.Friends\MeguminEngine.Friends.csproj", "{47129D42-F5A2-4025-B713-780A73C44F38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Friends", "MeguminEngine.Friends\MeguminEngine.Friends.csproj", "{47129D42-F5A2-4025-B713-780A73C44F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Team", "MeguminEngine.Team\MeguminEngine.Team.csproj", "{8E4C9C6A-DB8A-46D5-A293-251CD2412FC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Team", "MeguminEngine.Team\MeguminEngine.Team.csproj", "{8E4C9C6A-DB8A-46D5-A293-251CD2412FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Quest", "MeguminEngine.Quest\MeguminEngine.Quest.csproj", "{C04E5759-6495-4B5B-AB35-CF4BDC0DE353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Quest", "MeguminEngine.Quest\MeguminEngine.Quest.csproj", "{C04E5759-6495-4B5B-AB35-CF4BDC0DE353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Follower", "MeguminEngine.Follower\MeguminEngine.Follower.csproj", "{1E9EA3EE-6DAB-4F96-A867-C6A33B1A8E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Follower", "MeguminEngine.Follower\MeguminEngine.Follower.csproj", "{1E9EA3EE-6DAB-4F96-A867-C6A33B1A8E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.AuctionHouse", "MeguminEngine.AuctionHouse\MeguminEngine.AuctionHouse.csproj", "{B5D3164D-8787-452C-803A-4B69A4746EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.AuctionHouse", "MeguminEngine.AuctionHouse\MeguminEngine.AuctionHouse.csproj", "{B5D3164D-8787-452C-803A-4B69A4746EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Dungeon", "MeguminEngine.Dungeon\MeguminEngine.Dungeon.csproj", "{6EE432BC-C3A5-48CA-B1CD-C23BB1BA96EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Dungeon", "MeguminEngine.Dungeon\MeguminEngine.Dungeon.csproj", "{6EE432BC-C3A5-48CA-B1CD-C23BB1BA96EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.Duel", "MeguminEngine.Duel\MeguminEngine.Duel.csproj", "{0F91B994-8785-4633-8F6D-BDC5DEFD0FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Duel", "MeguminEngine.Duel\MeguminEngine.Duel.csproj", "{0F91B994-8785-4633-8F6D-BDC5DEFD0FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.TalentTree", "MeguminEngine.TalentTree\MeguminEngine.TalentTree.csproj", "{75774C8F-BBDA-4970-A945-27ED8FE50E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.TalentTree", "MeguminEngine.TalentTree\MeguminEngine.TalentTree.csproj", "{75774C8F-BBDA-4970-A945-27ED8FE50E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeguminEngine.WorldMap", "MeguminEngine.WorldMap\MeguminEngine.WorldMap.csproj", "{BAB1B6DE-B363-4689-BDAD-8478D09948EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.WorldMap", "MeguminEngine.WorldMap\MeguminEngine.WorldMap.csproj", "{BAB1B6DE-B363-4689-BDAD-8478D09948EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
