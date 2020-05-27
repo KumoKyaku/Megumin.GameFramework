@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Standard", "MeguminEngine.Standard\MeguminEngine.Standard.csproj", "{E9737003-4A68-4D33-9F6D-8B01AF18CC69}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeguminEngine.Core", "MeguminEngine.Core\MeguminEngine.Core.csproj", "{949500AB-7272-4C53-9CFC-83009E2BED46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E9737003-4A68-4D33-9F6D-8B01AF18CC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9737003-4A68-4D33-9F6D-8B01AF18CC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9737003-4A68-4D33-9F6D-8B01AF18CC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949500AB-7272-4C53-9CFC-83009E2BED46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949500AB-7272-4C53-9CFC-83009E2BED46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949500AB-7272-4C53-9CFC-83009E2BED46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949500AB-7272-4C53-9CFC-83009E2BED46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,2 @@
+﻿//[assembly: InternalsVisibleTo("UnitTestProject1")]
+

@@ -5,6 +5,8 @@
     <IsPackable>false</IsPackable>
 	<LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\OpenSource.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

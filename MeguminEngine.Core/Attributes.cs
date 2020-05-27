@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MeguminEngine.Standard
+namespace MeguminEngine.Core
 {
     /// <summary>
     /// 
