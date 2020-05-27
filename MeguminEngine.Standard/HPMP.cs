@@ -1,4 +1,4 @@
-﻿namespace MeguminEngine.Interface
+﻿namespace MeguminEngine.Standard
 {
     public delegate void OnValueChanged<T>(in T newValue, in T oldValue, object state = null);
 

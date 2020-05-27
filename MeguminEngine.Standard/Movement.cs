@@ -1,4 +1,4 @@
-﻿namespace MeguminEngine.Interface
+﻿namespace MeguminEngine.Standard
 {
     /// <summary>
     /// 当移动停止时回调，可能时卡住或到达目的地

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MeguminEngine.Interface
+namespace MeguminEngine.Standard
 {
     /// <summary>
 	/// 可被战争迷雾影响的单位

@@ -1,4 +1,4 @@
-﻿namespace MeguminEngine.Interface
+﻿namespace MeguminEngine.Standard
 {
     /// <summary>
     /// 道具

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MeguminEngine.Interface
+namespace MeguminEngine.Standard
 {
     public static class MeguminEngineInterfaceExtension
     {

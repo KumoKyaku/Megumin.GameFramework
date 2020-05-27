@@ -1,5 +1,5 @@
 ﻿
-namespace MeguminEngine.Interface
+namespace MeguminEngine.Standard
 {
     /// <summary>
     /// 任务

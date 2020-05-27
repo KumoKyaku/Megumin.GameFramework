@@ -3,7 +3,7 @@
  * 
  */
 
-namespace MeguminEngine.Interface
+namespace MeguminEngine.Standard
 {
     /// <summary>
     /// 最小约束，用于特定参数传递
