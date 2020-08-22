@@ -5,9 +5,9 @@
     <Authors>云却</Authors>
     
     <!--版本配置-->
+    <Version>1.0.0.0</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0.0</Version>
     
     <!--包配置-->
     <Product>MeguminEngine</Product>
@@ -24,14 +24,16 @@
   
   <!--目标框架配置-->
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.6;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>
+      netstandard2.0;
+      netstandard2.1;
+    </TargetFrameworks>
   </PropertyGroup>
   
   <!--依赖配置-->
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6'">
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
   </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.1' ">
   </ItemGroup>
   
   <!--以下是项目通用配置-->
@@ -40,7 +42,13 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <NoWarn>1701;1702;1591</NoWarn>
+    <NoWarn>
+      1574;<!--XML 注释中有未能解析的 cref 特性-->
+      1587;<!--XML 注释没有放在有效语言元素上-->
+      1591;<!--缺少对公共可见类型或成员的 XML 注释-->
+      1701;
+      1702;
+    </NoWarn>
     
     <!--打包配置-->
     <SignAssembly>true</SignAssembly>
